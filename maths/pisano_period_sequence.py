@@ -1,9 +1,23 @@
+
+"""
+== Pisano period Sequence ==
+
+In number theory, the nth Pisano period, written as π(n), is the period with which the sequence of Fibonacci numbers taken modulo n repeats.
+
+https://en.wikipedia.org/wiki/Pisano_period
+
+OEIS: A001175
+
+"""
+
+# Author : Darío Clavijo (https://github.com/daedalus)
+
 import sys
 
 
 def pisano_period(m):
     """
-    A001175
+    
     """
     if m == 1:
         return 1
